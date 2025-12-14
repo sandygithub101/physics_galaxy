@@ -1,9 +1,9 @@
-//     bucketName: 'vc-10002130-213016812802',
+//     bucketName: '',
 //     dirName: 'media', /* optional */
 //     region: 'ap-south-1',
-//     accessKeyId: 'AKIA4UKA5WD4CYRE4ONU',
-//     secretAccessKey: '5jyAbrpiK4WotGfnWiKHx/aNZMHd6HjR4czrtJKd',
-//     s3Url: 'https:/your-custom-s3-url.com/', /* optional */
+//     accessKeyId: '',
+//     secretAccessKey: '',
+//     s3Url: '', /* optional */
 
 
 

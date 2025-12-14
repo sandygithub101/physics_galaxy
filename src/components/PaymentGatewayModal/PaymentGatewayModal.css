@@ -1,0 +1,35 @@
+.moddv {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.radiodv {
+    font-size: 20px;
+}
+
+.radiodv.text-center.d-grid {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.paymentSection label {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.paymentSection input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,31 @@
+.pg-success-course {
+    box-shadow: 1px 1px 8px #999;
+    border-radius: 10px;
+}
+
+.pg-thnaks h1 {
+    font-size: 28px;
+}
+
+.pg-thnaks p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pg-thnaks h4 {
+    font-size: 20px;
+}
+
+.pg-courses-id h4 {
+    font-size: 20px;
+}
+
+.pg-courses-id p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pg-success-card {
+    box-shadow: 0 0 10px #999;
+    margin: 3rem 0;
+}

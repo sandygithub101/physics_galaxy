@@ -1,0 +1,12 @@
+.marquee-container {
+  overflow: hidden;
+  height: 300px;
+  /* Set the desired height */
+  position: relative;
+}
+
+img {
+  width: 100%;
+  /* Set the desired image width */
+  height: auto;
+}

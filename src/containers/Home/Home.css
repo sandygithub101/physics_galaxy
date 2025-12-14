@@ -1,0 +1,15 @@
+.scroll-to-top {
+
+    border: 2px solid #ffba19 !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    line-height: 40px;
+    right: 15px !important;
+    bottom: 15px !important;
+}
+
+.scroll-to-top:hover {
+    background-color: #ffba19;
+
+}

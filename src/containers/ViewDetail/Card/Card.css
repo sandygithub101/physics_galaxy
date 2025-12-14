@@ -1,0 +1,13 @@
+.viewdetail-image {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #f9f8f8;
+}
+
+.viewdetail-image img {
+    width: 100% !important;
+    height: auto !important;
+    margin: auto;
+    max-height: 100%;
+}

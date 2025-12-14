@@ -1,0 +1,36 @@
+.pg-course-link {
+    background: #fff;
+    box-shadow: 2px 2px 8px #999;
+    border-radius: 15px;
+    position: sticky;
+    top: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {
+    .pg-course-link {
+
+        top: 20px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .pg-course-link {
+
+        top: 20px;
+    }
+
+    .react__star__rating__lite span svg {
+        width: 15px;
+        line-height: 15px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:767px) {}

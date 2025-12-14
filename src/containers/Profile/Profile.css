@@ -1,0 +1,305 @@
+.pg-userprofile-section {
+  background-color: #fff8f0;
+}
+
+.user-form {
+  padding: 20px;
+  background-color: #f7f7f7 !important;
+}
+
+.user-form input[type="text"],
+input[type="email"],
+input[type="number"] {
+  /* color: #fff; */
+  border: 1px solid #9F9F9F;
+  border-radius: 5px;
+  outline: 0;
+  background: 0 !important;
+  box-shadow: none;
+}
+
+.user-form .form-select {
+  border: 1px solid #9F9F9F;
+}
+
+/* .user-form input[type="text"]:hover,
+     input[type="email"]:hover, 
+     input[type="number"]:hover{
+     color: #fff;
+       background: 0 !important;
+       border-bottom: 2px solid #ffba19;
+      
+   } */
+.btn-4 {
+  width: auto;
+}
+
+.user-form ::placeholder {
+  color: #999;
+  opacity: 1;
+  /* Firefox */
+}
+
+.user-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #eee;
+}
+
+.user-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #eee;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.col-form-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #878787;
+}
+
+
+.user-form .form-outline i {
+
+  margin-block: auto;
+}
+
+/* .section-user-profile{
+   
+   
+    margin: 0px;
+    padding: 5px;
+   } */
+
+.u-profile {
+  border-right: 1px solid #eee;
+}
+
+
+.section-user-profile {
+  min-height: 70vh;
+
+}
+
+.vjed-user-profile {
+  position: sticky;
+  top: 110px;
+  border-radius: 15px;
+  min-height: 70vh;
+  background: #fff;
+}
+
+/* .vjed-user-img{
+  background: #ffba19;
+  border-radius: 15px 15px 0 0;
+} */
+
+.pg-userprofileimage {
+  top: 15px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.pg-userprofileimage img {
+
+  margin: auto !important;
+  max-height: 100%;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+
+
+}
+
+.vjed-user-title {
+  max-height: 70px;
+  height: auto;
+  margin-top: 1.7rem;
+}
+
+.vjed-user-title h4 {
+  font-size: 16px;
+  font-weight: 600;
+
+
+}
+
+.vjed-user-title h6 {
+  font-size: 13px;
+  font-weight: 600;
+
+  margin: 0 auto;
+}
+
+.edit-icon {
+  float: right;
+  padding: 5px;
+  display: contents;
+}
+
+.edit-icon i {
+  margin: 1rem;
+}
+
+.user-nav {
+  display: block !important;
+}
+
+.user-nav li a.active {
+  margin: 2px 5px;
+  background: 0 !important;
+  color: #000 !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-left: 4px solid #000;
+
+}
+
+.user-nav li a {
+  background: 0 !important;
+  color: #000 !important;
+  margin: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* .user-form .btn{
+  border: 1px solid #3F5958;
+  background:  #3F5958;
+  color: #fff;
+  font-size: 15px;
+ font-weight: 500;
+  border-radius: 20px;
+}
+.user-form .btn:hover{
+  border: 1px solid #456d4b;
+  background:  #456d4b;
+  color: #fff;
+  font-weight: 500;
+
+ 
+} */
+/* .user-nav li{
+  margin: 10px;
+} */
+.user-nav li a.active:hover {
+  color: #000 !important;
+  background: #ffba19 !important;
+}
+
+.user-nav li a:hover {
+  color: #000 !important;
+  background: #FFE5A9 !important;
+}
+
+.user-form .l1 {
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.user-form .l2 {
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pg-user-prifile-image img {
+  width: 150px;
+
+}
+
+.pg-user-image-sec {
+  width: 100px;
+  height: 100px;
+
+}
+
+.pg-user-image-sec img {
+  width: 100px;
+  height: 100px !important;
+  margin: auto !important;
+  border-radius: 50%;
+
+}
+
+.form-control:disabled {
+  background-color: var(--bs-secondary-bg) !important;
+  opacity: 1;
+
+}
+
+.profile-name-text {
+  margin-left: 17px;
+  margin-top: 15px;
+}
+
+.chngepassdv {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.chngepassdvv {
+  background-color: #f7f7f7;
+
+}
+
+.user-profile-form {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .user-profile-form {
+    padding: 10px !important;
+  }
+
+  .profile-title {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+
+  .profile-name-text {
+    text-align: center;
+    margin-left: 0px
+  }
+
+  .circleimgdiv {
+    margin-top: 30px;
+  }
+
+  .user-profile-form {
+    padding: 10px !important;
+  }
+
+  .profile-title {
+    margin-top: 40px;
+  }
+
+  .pg-user-image-sec {
+    width: 100px;
+    height: 100px;
+    display: contents;
+  }
+
+  .vjed-user-profile {
+    position: sticky;
+    top: 110px;
+    border-radius: 15px;
+    min-height: auto;
+    background: #fff;
+  }
+}

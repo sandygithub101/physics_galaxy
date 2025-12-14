@@ -1,0 +1,16 @@
+.pg-course-link .nav-pills-custom {
+  overflow-x: auto;
+  padding: 0 5px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width:767px) {
+  .pg-category .nav-pills-custom .nav-link {
+
+    font-size: 13px;
+
+  }
+
+}

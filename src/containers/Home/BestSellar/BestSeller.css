@@ -1,0 +1,65 @@
+ .pg-courses .owl_custom .owl-nav {
+     display: block !important;
+ }
+
+ .pg-courses .owl-nav button {
+
+     margin: 0;
+     transition: all 0.3s ease-in-out;
+ }
+
+ .pg-courses .owl-nav button.owl-prev {
+     position: absolute;
+     top: 45%;
+     left: 0;
+     font-weight: 500;
+     width: 30px;
+     border-radius: 100%;
+     text-align: center;
+     line-height: 30px !important;
+     color: #000 !important;
+     font-size: 3rem !important;
+     cursor: pointer;
+     z-index: 5;
+     transform: translate(-70%, -50%);
+
+
+
+
+ }
+
+ .pg-courses .owl-nav button.owl-next {
+
+     position: absolute;
+     top: 45%;
+     font-weight: 500;
+     width: 30px;
+     border-radius: 100%;
+     text-align: center;
+     line-height: 30px !important;
+     color: #000 !important;
+     font-size: 3rem !important;
+     cursor: pointer;
+     z-index: 5;
+     transform: translate(70%, -50%);
+     right: 0;
+
+
+ }
+
+ .pg-courses .owl-nav button:focus {
+     outline: none;
+ }
+
+ .owl_custom .owl-prev,
+ .owl-next {
+     display: none !important;
+ }
+
+ .owl_custom:hover .owl-prev {
+     display: block !important;
+ }
+
+ .owl_custom:hover .owl-next {
+     display: block !important;
+ }

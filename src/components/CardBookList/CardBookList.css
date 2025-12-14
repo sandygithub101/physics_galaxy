@@ -1,0 +1,81 @@
+  .book-card-section h5 {
+    font-size: 1.5rem;
+  }
+
+  .book-card-section p {
+    font-size: 15px;
+  }
+
+  .class-header {
+    font-family: 'System-ui';
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #333;
+  }
+
+  .pg-bookdetails img {
+    max-width: 100%;
+    max-height: 220px !important;
+  }
+
+
+  .class-type-number {
+    font-family: 'System-ui';
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: #494949;
+  }
+
+  .class-type-desc {
+    font-family: 'System-ui';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0;
+    color: #999;
+  }
+
+  .spe-price {
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'System-ui';
+    letter-spacing: 0;
+    color: #333;
+    text-align: left;
+  }
+
+  .class-price {
+    font-family: 'System-ui';
+    font-size: 20px;
+    color: #333;
+  }
+
+  .class-old-price {
+    font-family: 'System-ui';
+    font-size: 12px;
+    color: #888;
+  }
+
+  .class-old-price,
+  .class-price {
+    line-height: 49px;
+    letter-spacing: 0;
+  }
+
+  .class-price-off {
+    background: no-repeat padding-box #ffba19;
+    box-shadow: 0 0px 4px #999;
+    border-radius: 20px;
+    height: 25px;
+    line-height: 7px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+    margin-top: 10px;
+    font-family: 'System-ui';
+  }
+
+  .font-16 {
+    font-size: 16px;
+  }

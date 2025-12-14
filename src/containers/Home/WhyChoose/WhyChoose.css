@@ -1,0 +1,197 @@
+.pg-why-choose {
+  background: #000;
+  /* background-image: url(images/mathformula.gif); position: relative; width: 100%; height: auto; background-size: cover; */
+}
+
+.pg-platform h1 {
+
+  font-weight: 600;
+  color: #fff;
+}
+
+.pg-platform p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.pg-platform h2 .pg-why-c {
+  background: linear-gradient(89deg, #5a4bda 0, #eb427e 100%) no-repeat padding-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.pg-whychose-section {
+  width: 100%;
+  height: 360px !important;
+  padding: 10px 0;
+  border-radius: 0 50px !important;
+  border: 1px solid #ffba19;
+  background: #000 !important;
+  box-shadow: 2px 2px 8px #ffab19;
+}
+
+.pg-whychose-image {
+  width: 100%;
+  height: 250px;
+
+}
+
+.pg-whychose-image img {
+  width: 100%;
+  height: auto !important;
+  margin: auto !important;
+  max-height: 100%;
+}
+
+/* .pg-whychose-section img{
+    border-radius: 50%;
+    border: 2px solid #ffab19;
+  } */
+.choose-body {
+  padding: 1rem !important;
+}
+
+.choose-body h5 {
+  font-size: 20px;
+  height: 88px;
+}
+
+.my_star.wt_7 img {
+  line-height: 15px;
+  width: 15px !important;
+
+}
+
+.my_star.wt_7 {
+  left: 0%;
+  top: 10%;
+  animation: animation_star 20s infinite linear;
+}
+
+.my_star.wt_8 img {
+  line-height: 15px;
+  width: 15px !important;
+
+}
+
+.my_star.wt_8 {
+  left: 5%;
+  top: 50%;
+  animation: animation_star 20s infinite linear;
+}
+
+.my_star.wt_9 img {
+  line-height: 15px;
+  width: 15px !important;
+}
+
+.my_star.wt_9 {
+  right: 15%;
+  top: 10%;
+  animation: animation_star 15s infinite linear;
+}
+
+.my_star.wt_10 img {
+  line-height: 15px;
+  width: 15px !important;
+
+}
+
+.my_star.wt_10 {
+  left: 80%;
+  top: 50%;
+  animation: animation_star 10s infinite linear;
+}
+
+
+
+@keyframes animation_star {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: translate(25px, 100px) rotate(90deg);
+    transform: translate(25px, 100px) rotate(90deg);
+  }
+
+  50% {
+    -webkit-transform: translate(75px, 75px) rotate(180deg);
+    transform: translate(75px, 75px) rotate(180deg);
+  }
+
+  75% {
+    -webkit-transform: translate(75px, 25px) rotate(270deg);
+    transform: translate(75px, 25px) rotate(270deg);
+  }
+
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(360deg);
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {
+  .choose-body h5 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .choose-body h5 {
+    font-size: 16px;
+  }
+
+  .pg-whychose-image {
+    width: 100%;
+    height: 140px !important;
+  }
+
+  .pg-whychose-section {
+    width: 100%;
+    height: 260px !important;
+
+  }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+  .choose-body h5 {
+    font-size: 16px;
+  }
+
+  .card-counter span {
+    font-size: 1.5rem !important;
+    color: #000;
+  }
+
+  .card-counter p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .pg-whychose-image {
+    width: 100%;
+    height: 165px;
+  }
+
+  .pg-whychose-section {
+    width: 100%;
+    height: 260px !important;
+
+  }
+
+  .card-counter {
+    height: 130px;
+  }
+
+  .owl-dots {
+    margin-bottom: 0;
+    height: 0;
+  }
+}

@@ -1,0 +1,31 @@
+.accordion-item {
+    border-left: 5px solid #ffab19;
+}
+
+.about_think_nav .about_think_card_heading .about_think_nav_tabs {
+    border: none;
+}
+
+.about_think_nav .about_think_card_heading .about_think_nav_tabs li:first-child button {
+    padding: 0;
+}
+
+.about_think_nav .about_think_card_heading .about_think_nav_tabs li:first-child button svg {
+    padding: 10px 15px;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .about_think_nav_tabs {
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .about_think_nav_tabs {
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}

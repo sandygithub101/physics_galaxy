@@ -1,0 +1,35 @@
+.iit-custom-tabs {
+    background: #fff;
+    box-shadow: 0 0 8px #999;
+    margin: 10px;
+
+    position: sticky;
+    top: 100px;
+}
+
+/* .iit-custom-tabs .nav-item{
+    margin-bottom: 5px;
+} */
+
+.iit-custom-tabs .nav-item a.active {
+    background: #ffba19 !important;
+    color: #000 !important;
+    font-weight: 500;
+    /* box-shadow: 0 0 4px #999; */
+    border-bottom: 1px solid #eee;
+}
+
+.iit-custom-tabs .nav-item a {
+    border-bottom: 1px solid #eee;
+    color: #000 !important;
+    font-weight: 500;
+    border-radius: 0;
+
+}
+
+.iit-custom-tabs .nav-item a:hover {
+    box-shadow: none;
+    color: #000 !important;
+    background: #ffba19 !important;
+
+}

@@ -1,0 +1,121 @@
+.pg-event-manag-image {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.pg-event-manag-image img {
+    width: 100%;
+    height: auto !important;
+    margin: auto !important;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.pg-event-manag-text-sec span button {
+    border: 1px solid #999;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pg-event-manag-text-sec p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pg-event-manag-time-sec p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pg-event-qrcode-image img {
+    width: 60%;
+}
+
+/* .pg-event-qrcode-image img{
+    width: 100%;
+   } */
+
+@media (min-width: 992px) and (max-width:1024px) {
+    .pg-event-qrcode-image img {
+        width: 60%;
+    }
+
+    .pg-event-manag-text-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pg-event-manag-text-sec h3 {
+        font-size: 22px;
+    }
+
+    .pg-event-manag-image {
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        background: #f0f0f0;
+        border-radius: 10px;
+    }
+
+    .pg-event-manag-time-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .pg-event-manag-text-sec h3 {
+        font-size: 22px;
+    }
+
+    .pg-event-qrcode-image img {
+        width: 60%;
+    }
+
+    .pg-event-manag-text-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pg-event-manag-image {
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        background: #f0f0f0;
+        border-radius: 10px;
+    }
+
+    .pg-event-manag-time-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .pg-event-qrcode-image img {
+        width: 60%;
+    }
+
+    .pg-event-manag-text-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pg-event-manag-image {
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        background: #f0f0f0;
+        border-radius: 10px;
+    }
+
+    .pg-event-manag-time-sec p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

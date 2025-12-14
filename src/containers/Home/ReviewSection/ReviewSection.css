@@ -1,0 +1,145 @@
+.pg-reviews {
+  padding: 10px;
+  text-align: center;
+}
+
+.pg-reviews h1 {
+  display: inline-block;
+  letter-spacing: -1.1px;
+  max-width: 350px;
+  margin: 0.5rem;
+  line-height: 1.25em;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+
+  -webkit-text-fill-color: transparent;
+  background-color: #ffab19;
+  background-image: url(https://media.giphy.com/media/9JxkPTP3alOykb8PmQ/source.gif);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 200%;
+}
+
+.pg-highlight {
+  background-color: #ffa500;
+}
+
+/* .reviewssection{
+    margin-top: 6rem;
+  } */
+
+
+.pg-marquee {
+  min-height: 50vh;
+  max-height: 50vh;
+  padding: 10px;
+}
+
+
+.review_img {
+
+
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.review_img h3 {
+
+  /* padding: 0 30px 0 0;
+  position: absolute; */
+
+
+
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -moz-animation: review_img 10s linear infinite;
+  -webkit-animation: review_img 10s linear infinite;
+  animation: review_img 10s linear infinite;
+}
+
+.review_img h3 img {
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+
+}
+
+@-moz-keyframes review_img {
+  0% {
+    -moz-transform: translateY(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes review_img {
+  0% {
+    -webkit-transform: translateY(100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes review_img {
+  0% {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+.review_img h3:hover {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+
+
+
+.animation_main5 {
+  position: relative;
+  min-height: 50vh;
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.check_animation5 {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  animation-name: img_up;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transform: translate(0, -10%);
+}
+
+.check_animation5:hover {
+  animation-play-state: paused;
+}
+
+@keyframes img_up {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: -450%;
+  }
+}

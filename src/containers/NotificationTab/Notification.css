@@ -1,0 +1,43 @@
+ /* .fsize {
+     font-size: 12px;
+ }
+
+ .fss-6 {
+     font-size: 14px;
+ }
+
+ .icon>i {
+     color: gray;
+     font-size: 22px;
+ }
+
+ .active {
+     background-color: #ffba19;
+     border-radius: 100%;
+     width: 10px;
+     height: 10px;
+     position: absolute;
+     margin-left: -4px;
+     margin-top: -4px;
+ }
+
+ @media(max-width: 768px) {
+     .fss-6 {
+         font-size: 12px;
+     }
+
+     .fsize {
+         font-size: 12px;
+     }
+ }
+ */
+
+ @media(max-width: 576px) {
+     .fss-6 {
+         font-size: 10px;
+     }
+
+     .fsize {
+         font-size: 10px;
+     }
+ }

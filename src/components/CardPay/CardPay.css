@@ -1,0 +1,150 @@
+.vjed-off-price h6 {
+    font-size: 16px;
+}
+
+.vjed-off-price .last-price {
+
+    font-size: 24px;
+    color: #999;
+    text-decoration: line-through;
+
+}
+
+.vjed-off-price .current-price {
+
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+}
+
+.card-order {
+    position: sticky;
+
+    top: 100px;
+}
+
+.vjed-order-heading {
+    background: #ffba19;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.vjed-order-heading h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.vjed-card .vjed-copan-card {
+    display: flex;
+    background: #999;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.vjed-check {
+    float: left;
+    color: #000;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.vjed-check label {
+    color: #000;
+}
+
+.vjed-check label a:hover {
+    text-decoration: underline !important;
+}
+
+.vjed-card .vjed-copan-card {
+    display: flex;
+    background: #eeeeee;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.vjed-card h6 {
+    font-size: 16px;
+    color: rgb(46, 45, 45);
+}
+
+.radious_all {
+    border-radius: 10px;
+}
+
+.vjed-check label {
+    color: #000;
+}
+
+.vjed-check label a {
+    text-decoration: none !important;
+}
+
+.vjed-check label a:hover {
+    text-decoration: underline !important;
+}
+
+input[type="checkbox"]:checked+label {
+    color: #000;
+    font-style: normal;
+}
+
+.vjed-off-des p {
+    font-size: 20px;
+    color: #999;
+    min-height: 70px;
+}
+
+.vjed-card a.btn {
+    border-color: #ffba19;
+    background: #ffba19;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.pg-card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #f9f8f8;
+}
+
+.pg-card-img img {
+    width: 100% !important;
+    height: auto !important;
+    margin: auto;
+    max-height: 100%;
+}
+
+.hvecoupn {
+    border: none !important;
+    font-size: 16px;
+    background-color: transparent;
+
+}
+
+.hvecoupnimg {
+    height: fit-content;
+}
+
+.couponalldiv {
+    background-color: #eeeeee;
+}
+
+.addcouponh {
+    font-size: 15px !important;
+}
+
+.frstcoupon {
+    border-right: 1px solid grey;
+}
+
+.coupnappl h6 {
+    color: green;
+}

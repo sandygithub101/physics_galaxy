@@ -1,0 +1,92 @@
+.card-b-p {
+  padding: 1rem !important;
+}
+
+
+.vjed-amount p {
+  font-size: 13px;
+  font-weight: 400;
+
+  color: #3e3c3c;
+}
+
+.pg-prch-image-size {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #f9f8f8;
+}
+
+.pg-prch-image-size img {
+  width: 100%;
+  height: auto !important;
+  margin: auto !important;
+  max-height: 100%;
+}
+
+.pg-userprofile-section a {
+  text-decoration: none;
+}
+
+h3.card-order-title {
+
+  font-size: 18px;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+
+.vjed-card-item p.card-text {
+  font-size: 18px;
+}
+
+.btn-voice {
+  border: 2px solid #ffba19;
+  background: #ffba19;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.btn-voice:hover {
+  background: #ffdc8b;
+}
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {
+  .vjed-card-item h5.card-order-title {
+    font-size: 17px;
+  }
+
+  .vjed-card-item p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .vjed-card-item h5.card-order-title {
+    font-size: 15px;
+  }
+
+  .vjed-card-item p {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+  h3.card-order-title {
+
+    font-size: 20px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+  }
+
+}

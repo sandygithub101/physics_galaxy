@@ -1,0 +1,9 @@
+.nodataimg img {
+    width: 258px !important;
+}
+
+.nodataimg p {
+    font-size: 21px !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}

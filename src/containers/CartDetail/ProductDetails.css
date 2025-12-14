@@ -1,0 +1,120 @@
+.card_main {
+    background-color: #fdf1e7;
+}
+
+.card_main .product_card_box {
+    padding: 20px 20px;
+}
+
+.card_main .product_table {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.viewcart-image {
+    width: 100px;
+    height: 60px;
+    background: #f0f0f0;
+}
+
+.viewcart-image img {
+    width: 100%;
+    height: auto !important;
+    margin: auto !important;
+    max-height: 100%;
+}
+
+.card_main .product_table th {
+
+    padding: 15px 10px;
+}
+
+.card_main .product_table td {
+    font-size: 12px;
+    text-align: left;
+    padding: 15px 5px;
+    vertical-align: middle;
+}
+
+.card_main .product_table thead {
+    border-bottom: 1px solid lightgray;
+}
+
+.card_main .product_table tbody {
+    border-bottom: 1px solid lightgray;
+}
+
+.card_main .card_btn {
+    padding: 15px 0px;
+}
+
+.card_main .card_btn button {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 18px;
+    font-weight: 500;
+    /* border: 1px solid #ffab19; */
+    background-color: #ffab19;
+}
+
+.card_main .card_btn button:hover {
+
+    background-color: #ffcc73;
+}
+
+.card_main .summary_card .summary_card_box {
+    background-color: rgba(240, 239, 239, 0.911);
+    /* padding: 20px 0px; */
+    border-radius: 10px;
+}
+
+.card_main .summary_card .summary_card_box div:first-child {
+    background-color: #ffa509;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_main .mobile_card {
+    display: none;
+}
+
+.card_main .mobile_card .mobile_card_main {
+    background-color: transparent !important;
+    padding: 20px 10px;
+    border-bottom: 1px solid;
+}
+
+.total-amount {
+    border-radius: 0 0 10px 10px;
+}
+
+@media(max-width:768px) {
+    .card_main .product_table {
+        display: none;
+    }
+
+    .card_main .mobile_card {
+        display: block;
+    }
+
+    .card_main .card_btn {
+        flex-direction: column;
+    }
+
+    .card_main .card_btn button {
+        margin-top: 8px;
+    }
+
+    .pg-mobile-card {
+        width: 100%;
+        height: 120px;
+        background: #f0f0f0
+    }
+
+    .pg-mobile-card img {
+        width: 100%;
+        height: auto !important;
+        margin: auto !important;
+        max-height: 100%;
+
+    }
+}

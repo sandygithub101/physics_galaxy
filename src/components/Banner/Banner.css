@@ -1,0 +1,126 @@
+.banner-images {
+  min-height: 450px;
+}
+
+.banner-images .owl_custom .owl-nav {
+  display: none !important;
+}
+
+.banner-images .owl-nav button {
+
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.banner-images .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-weight: 700;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px !important;
+  color: #000 !important;
+  font-size: 4rem !important;
+  cursor: pointer;
+  z-index: 5;
+  transform: translate(-70%, -50%);
+}
+
+.banner-images .owl-nav button.owl-next {
+
+  position: absolute;
+  top: 50%;
+  font-weight: 700;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px !important;
+  color: #000 !important;
+  font-size: 4rem !important;
+  cursor: pointer;
+  z-index: 5;
+  transform: translate(70%, -50%);
+  right: 0;
+}
+
+.banner-images .owl-nav button:focus {
+  outline: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.banner-images .owl-carousel .owl-item {
+  height: 450px;
+  background-color: #ccc;
+}
+
+.banner-images .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.banner-images .owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+}
+
+.owl_custom .owl-nav {
+  display: block !important;
+}
+
+.banner-images .pg-banner-section img {
+  width: 100%;
+  height: 485px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .banner-images {
+    min-height: 100px;
+  }
+
+  .banner-images .owl-carousel .owl-item {
+    height: 175px;
+    background-color: #ccc;
+  }
+
+  .banner-images .owl-carousel .owl-item img {
+    height: 175px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .banner-images .owl-carousel .owl-item {
+    height: 233px;
+    background-color: #ccc;
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner-images .owl-carousel .owl-item {
+    height: 500px;
+    background-color: #ccc;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner-images .owl-carousel .owl-item img {
+    width: auto;
+    height: 500px !important;
+    max-width: 100% !important;
+  }
+
+}
+
+@media (min-width:2560px) {
+  .banner-images .owl-carousel .owl-item {
+    height: 500px;
+    background-color: #ccc;
+  }
+}

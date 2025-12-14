@@ -1,0 +1,72 @@
+.want_submit_box {
+    box-shadow: 0 0 5px 2px lightgray;
+    padding: 10px 25px;
+}
+
+.want_submit_box div {
+    padding: 15px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.want_submit_box div h4 {
+    font-size: 20px;
+}
+
+.want_submit_box div h4 svg {
+    font-size: 20px;
+}
+
+.want_submit_box div:last-child {
+    padding: 30px 0px 20px 0px;
+    column-gap: 15px;
+    border: none;
+}
+
+.want_submit_box div:last-child button {
+    padding: 5px 50px;
+    background-color: rgb(243, 202, 19);
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media(max-width:992px) {
+    .want_submit_box div h4 {
+        font-size: 20px;
+    }
+
+    .want_submit_box h3 {
+        font-size: 23px;
+    }
+
+    .want_submit_box div h4 svg {
+        font-size: 15px;
+    }
+
+    .want_submit_box {
+        padding: 20px;
+    }
+
+    .want_submit_box div {
+        padding: 10px 0px;
+    }
+}
+
+/* @media(max-width:575px) {
+    .want_submit_box div h4 {
+        font-size: 17px;
+    }
+
+    .want_submit_box h3 {
+        font-size: 21px;
+        margin-bottom: 15px!important;
+    }
+
+    .want_submit_box div:last-child button {
+        padding: 10px 20px;
+    }
+    .want_submit_box{
+        margin: 30px;
+    }
+} */

@@ -1,0 +1,32 @@
+.expendcarrior p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width:767px) {
+    .exams h1 {
+        font-size: 20px;
+    }
+
+    .collapse:not(.show) {
+        display: block !important;
+    }
+}

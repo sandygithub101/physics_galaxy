@@ -1,0 +1,16 @@
+.cntrdivv h4 {
+    color: #000;
+}
+
+.resendotpp {
+    background-color: none !important;
+    color: #000 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.resendotpp:hover {
+    background: none !important;
+}

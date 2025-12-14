@@ -1,0 +1,10 @@
+.test-table {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.test-table td {
+    border: 1px solid #ccc;
+    width: 50%;
+    text-align: left;
+}

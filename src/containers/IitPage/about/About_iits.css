@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about_sec_head {
+    color: #000 !important;
+}
+
+.text-maroon {
+    color: #B80000 !important;
+}
+
+.img-fluid {
+    /* width: 100%;
+    max-height: 548px; */
+}
+
+.circle-animate {
+    position: relative;
+    display: inline-block;
+    pointer-events: fill;
+    border-radius: 100px;
+    margin-bottom: -0.5rem;
+}
+
+.logo_IIT {
+    position: absolute;
+    width: calc(100% - 1.6rem);
+    height: calc(100% - 1.6rem);
+    display: flex;
+    top: 0;
+    left: 0;
+    margin: 0.8rem;
+    overflow: hidden;
+    border-radius: 55rem;
+    background-color: #fff;
+}
+
+.circle-animate .logo_IIT img {
+    background-color: #fff;
+    padding: 0.4rem;
+}
+
+.circle_img_animate {
+    width: 100px;
+    animation: rotate 10s linear infinite;
+    transition: all 0.1s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-animate:hover {
+    width: 100px;
+    animation: none;
+    transform: scale(1.2);
+}
+
+.about_iit_btn {
+    width: max-content;
+}
+
+.about_iit_btn span {
+    padding: 0 10px !important;
+}
+
+.pg-aboutiits-sec {
+
+    border-radius: 10px;
+
+    padding: 0 5px;
+
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border: 2px solid #ffba19;
+}
+
+.pg-aboutiits-sec .about-icons i {
+    width: 65px;
+    height: 65px;
+    line-height: 68px;
+    text-align: center;
+    border: 1px solid #ffba19;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #ffba19;
+    display: inline-block;
+    font-size: 32px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.pg-aboutiits-sec:hover {
+    border-color: #ffba19;
+    background-color: #ffba19;
+
+}
+
+.pg-aboutiits-sec:hover .about-iit-title h3 {
+
+    color: #fff;
+}
+
+.about-iit-title h3 {
+    font-size: 24px;
+    color: #000;
+}
+
+.about-iit-title p {
+    font-size: 14px;
+    color: #696969;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.about-icons img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}

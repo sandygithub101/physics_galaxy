@@ -1,0 +1,178 @@
+.perform_header {
+
+    background: #000;
+
+}
+
+.perform_main {
+    padding: 5px 0px;
+}
+
+.perform_main .perform_detail {
+    display: none;
+}
+
+.perform_main .perform_detail_toggle {
+    display: block;
+}
+
+.perform_main .perform_btn button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 2px solid #fdaf29;
+    background: #fff;
+}
+
+.perform_main .perform_btn .active_per {
+    background-color: #fdaf29;
+}
+
+.perform_main .perform_detail h6 {
+    text-align: center;
+}
+
+.perform_main .perform_detail svg {
+    margin: 10px auto;
+    color: #fdaf29;
+    display: block;
+    font-size: 30px;
+}
+
+.perform_main .perform_detail .quick_main div {
+    padding: 5px 15px;
+}
+
+.perform_main .perform_detail .quick_main svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.perform_main .quick_main .quick_main_box {
+    background: white;
+    box-shadow: 0 0 5px 2px lightgray;
+}
+
+.quick_main_box-sec span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.quick_main_box-sec span i.fa-random {
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(242, 50, 82);
+    padding: 10px;
+    color: #fff;
+    width: 43px;
+    border-radius: 50%;
+    height: 44px;
+}
+
+.quick_main_box-sec span i.fa-male {
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(201, 201, 4);
+    padding: 10px;
+    color: #fff;
+    width: 43px;
+    border-radius: 50%;
+    height: 44px;
+}
+
+.quick_main_box-sec span i.fa-percent {
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(12, 239, 58);
+    padding: 10px;
+    color: #fff;
+    width: 43px;
+    border-radius: 50%;
+    height: 44px;
+}
+
+.quick_main_box-sec span i.fa-check-square-o {
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(143, 115, 236);
+    padding: 10px;
+    color: #fff;
+    width: 43px;
+    border-radius: 50%;
+    height: 44px;
+}
+
+.quick_main_box-sec span i.fa-hourglass-end {
+    font-size: 22px;
+    font-weight: 500;
+    background: rgb(235, 100, 105);
+    padding: 10px;
+    color: #fff;
+    width: 43px;
+    border-radius: 50%;
+    height: 44px;
+}
+
+.v-line {
+    border-left: 1px solid #ffba19;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+
+}
+
+.pg-quick-score p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pg-quick-score p.score {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pg-quick-summery span i {
+    font-size: 2.5rem;
+}
+
+.pg-quick-summery p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pg-quick-summery span {
+    font-size: 14px;
+}
+
+.sect_summ span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sect_summ p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.perform_main .perform_detail .stud_perf {
+    background: white;
+    box-shadow: 0 0 5px 2px lightgray;
+
+}
+
+.stud_perf i {
+    font-size: 3rem;
+    color: #ffba19;
+}
+
+.stud_perf h6 {
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.perform_main .perform_detail .sect_summ {
+    background: white;
+    box-shadow: 0 0 5px 0px lightgray;
+    padding: 5px 5px;
+}

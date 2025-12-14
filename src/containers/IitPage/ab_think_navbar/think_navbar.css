@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ab_think_navbar {
+    position: sticky;
+    top: 0px;
+    box-shadow: 1px 1px 8px #999;
+
+}
+
+.ab_think_menu .nav-link.active {
+    background: #ffba19 !important;
+    font-weight: 600;
+}
+
+.ab_think_navbar .ab_think_menu .nav-item .active {
+    background: #ffba19 !important;
+}
+
+.ab_think_menu .nav-link {
+    background-color: #ffba19;
+}
+
+.ab_think_menu .nav-link {
+    padding: 0.5rem 1rem !important;
+    color: #000;
+    background: #fff;
+}
+
+.ab_think_menu li.nav-item {
+    border-bottom: #ddd 1px solid;
+}
+
+.about_think_nav_tabs li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about_think_nav_tabs .nav-link.active {
+    background-color: rgb(255, 202, 8) !important;
+    color: #000 !important;
+    font-weight: 700;
+    border-bottom: 0 !important;
+}
+
+.about_think_nav_tabs .nav-link {
+    border-bottom: 0 !important;
+    color: #000;
+    font-weight: 700;
+}
+
+.about_think_nav_tabs .nav-link:hover {
+    color: #000 !important;
+    background-color: #ffba19 !important;
+    border-bottom: 0 !important;
+}
+
+.about_think_nav {
+    background: #ffba1926;
+    border-radius: 0 !important;
+}
+
+.card-section img {
+    width: 120px;
+    height: 120px;
+    margin-top: -30px;
+    margin-left: 30px;
+    border: 5px solid #ffba19;
+    box-shadow: 2px 2px 8px #999;
+}
+
+.card-section h5 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.card-section small {
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #ffba19;
+}
+
+.card-testi {
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 1.25rem 0.5rem;
+    margin-top: 0.5rem;
+    box-shadow: 2px 2px 8px #999;
+    border-radius: 20px;
+}
+
+.card-section .fa-quote-left {
+    color: #ffba19;
+    padding: 0 10px;
+    font-size: 2rem;
+}
+
+.card-section i.fa-quote-right {
+    color: #ffba19;
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+.card-testi-p p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.about-admic-sec tr td {
+    text-align: left !important;
+    padding-left: 10px;
+}
+
+.about-admic-sec tr td a {
+    color: #000;
+    text-decoration: none;
+}
+
+.about_notice_detail {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 5px solid #ffba19 !important;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #000;
+}

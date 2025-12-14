@@ -1,0 +1,89 @@
+.course-image-size img {
+  width: 100%;
+  height: auto !important;
+  margin: auto !important;
+  max-height: 160px !important;
+  object-fit: cover !important;
+  border-radius: 10px;
+}
+
+.course-image-size.regularClass {
+  background-color: #fff;
+}
+
+.regularClass img.img-fluid.p-1 {
+  object-fit: contain !important;
+  max-height: 120px !important;
+}
+
+.cursemaindiv {
+  background: #f2f2f2;
+  padding: 11px;
+  border-radius: 5px;
+}
+
+/* .border-end{
+    border-right: 1px sold #ccc !important;
+  } */
+.coursevdtls {
+  display: flex;
+  justify-content: end;
+  margin-top: -10px;
+}
+
+.coursevdtls button {
+  background-color: #ffba19;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-weight: 700;
+  font-size: 15px;
+
+}
+
+/* Style the item list container */
+.course-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+/* Style the individual items */
+.course-item {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  border-right: 3px solid #ccc;
+}
+
+.align-items-center.vjed-amountt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coursevdtls.cursor {
+  width: 31%;
+}
+
+/* Style the item number */
+.courseitem-number {
+
+  font-size: 16px;
+  /* Customize the color as desired */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style the item description */
+.courseitem-description {
+  font-size: 16px;
+  color: #000;
+  /* Customize the color as desired */
+  margin: 0;
+}
+
+/* Add additional styles as needed */
+.course-image-size {
+  text-align: center;
+  overflow: hidden;
+}

@@ -1,0 +1,112 @@
+section .table_logo img {
+    padding: 7px 0px;
+    border-radius: 10px;
+}
+
+.table_main .table_div {
+    border: 1px solid gray;
+}
+
+.table_main table {
+    border: 1px solid lightgray;
+}
+
+.table_main table th,
+td {
+    text-align: center;
+}
+
+.table_main table th {
+    padding: 15px 3px;
+    background-color: rgb(233, 230, 230);
+}
+
+.table_header {
+    background-color: #000;
+}
+
+.table_main .table_btn_main {
+    background-color: rgb(235, 232, 232);
+    padding: 10px 0px;
+}
+
+.table_main .table_btn_main span {
+    font-size: 15px;
+    color: red;
+}
+
+.table_main .table_btn_main .table_btn_div button:first-child {
+    border: none;
+}
+
+.table_main .table_btn_main .table_btn_div button:last-child {
+    background-color: #ffba19;
+    border: none;
+    padding: 5px 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.table_main .table_btn_main .table_btn_div button:last-child:hover {
+    background-color: #fccf67;
+
+}
+
+.table_main .table_btn_main .table_btn_div button select {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media(max-width:992px) {
+    .table_main .table_btn_main .table_btn_div button:last-child {
+        padding: 5px 14px;
+    }
+
+    .table_main .table_btn_main .table_btn_div button select {
+        padding: 5px 8px;
+    }
+}
+
+@media(max-width:768px) {
+    .table_main .table_btn_main .table_btn_div button:last-child {
+        padding: 5px 14px;
+    }
+
+    .table_main .table_btn_main .table_btn_div button select {
+        padding: 5px 8px;
+    }
+
+    .table_main table th {
+        font-size: 14px;
+    }
+
+    .table_main .table_btn_main span {
+        font-size: 14px;
+    }
+
+    section .table_logo img {
+        width: 100% !important;
+    }
+
+    .table_main .table_btn_main .table_btn_div {
+        justify-content: start !important;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:448px) {
+    .table_main table th {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:400px) {
+    .table_main table th {
+        font-size: 12px;
+    }
+
+    .table_main .table_div .table_2 {
+        overflow-x: scroll;
+    }
+}

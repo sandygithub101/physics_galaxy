@@ -1,0 +1,60 @@
+.iqra-header {
+    background: #dfdfdf;
+}
+
+.logo img {
+    width: 160px;
+    border-radius: 4px;
+}
+
+.educrypt-thanks-card {
+    padding: 3rem !important;
+    margin: 1.5rem 3rem !important;
+    box-shadow: 0 0 10px #999;
+}
+
+.educrypt-thank-title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    font-weight: 500;
+    color: black;
+}
+
+.educrypt-thank-btn .GoButton {
+    font-size: 13px;
+}
+
+.educrypt-thank-btn .GoButton:hover {
+    background: #616161;
+    border: 1px solid #616161;
+}
+
+.educrypt-thank-btn .preButton {
+    font-size: 13px;
+}
+
+.educrypt-thank-btn .preButton:hover {
+    background: #616161;
+    border: 1px solid #616161;
+}
+
+.educrypt-navbar {
+    margin: 0 25px;
+}
+
+/* .educrypt-logo img {
+            width: 150px;
+        } */
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .educrypt-thanks-card {
+        padding: 0 !important;
+        margin: 0 !important;
+        box-shadow: 0 0 10px #999;
+    }
+
+    .educrypt-thank-title h1 {
+        font-size: 3em;
+    }
+}
